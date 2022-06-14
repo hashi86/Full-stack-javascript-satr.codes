@@ -1,0 +1,211 @@
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+
+}
+
+/* 2- Background */
+
+body {
+
+
+  background-image: url('/img/CSS3.PNG');
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: cover;
+
+  height: 100vh;
+
+
+}
+
+
+/* 3- Text */
+
+  .p {
+
+  /* fonts */
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+
+  margin-right: 15px;
+
+  /* Text  */
+
+  text-align: center;
+
+  color: white;
+
+
+  /* 4- Border */
+
+  border-style: double dotted solid dashed;
+
+  border-width: 3px;
+
+  border-color: #009999;
+
+  border-radius: 10px;
+
+
+  background-color: rgba(6, 3, 0, 0.364) 
+
+  
+
+} 
+
+
+/* links */
+
+a {
+
+
+  background-color: white;
+ 
+  color: #009999;
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+}
+
+
+
+
+a:hover {
+
+  color: red;
+
+
+}
+
+
+
+h1 {
+
+  margin-right: 20px;
+
+  background-color: #ec6666;
+
+  color: chartreuse;
+
+  display: inline;
+
+}
+
+
+/* 5- Box Model */
+
+
+.p {
+
+  background-color: #009999;
+
+  width: 400px;
+
+  border: 15px solid pink;
+
+  padding: 50px;
+
+  /* margin & padding */
+  margin: 20px;
+  padding: 20px
+
+
+
+}
+
+
+
+/* navbar */
+
+.navbar {
+
+  background: #333;
+
+}
+
+.navbar img {
+
+  width: 20%;
+
+  float: right;
+
+
+}
+
+
+.navbar ul {
+
+  list-style: none;
+  width: 80%;
+
+
+
+}
+
+.navbar ul li {
+
+  display: inline-block;
+
+  /* float: right; */
+}
+
+
+.navbar ul li a {
+
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: green;
+
+  padding: 8px;
+
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  display: block;
+
+
+}
+
+
+
+
+/* hover */
+
+
+.navbar ul li a:hover {
+
+  opacity: 1;
+
+  color: orange;
+
+
+  padding: 10px;
+
+
+}
+
+
+
+
+.clear {
+
+  clear: both;
+
+}
